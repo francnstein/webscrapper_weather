@@ -31,3 +31,5 @@ weather_stuff = pd.DataFrame(
     })
 
 print(weather_stuff)
+weather_stuff.to_csv('weather.cv')
+
